@@ -30,7 +30,6 @@
 }
 
 .header__logo {
-  margin-right: 50px;
   max-width: 148px;
   max-height: 105px;
 }
@@ -45,7 +44,7 @@
   max-width: 240px;
   max-height: 98px;
   line-height: 24px;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .overlay {
@@ -129,6 +128,8 @@
 
 .lots__heading {
   font-size: 40px;
+  padding-left: 40px;
+  padding-bottom: 27px;
 }
 
 .card {
@@ -138,14 +139,16 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 51px 40px 48px;
+  position: relative;
+  z-index: 2;
 }
 
 .lots__card-list {
   color: #ffffff;
   display: flex;
   gap: 25px;
+  margin-bottom: 30px;
 }
-
 
 .card__title {
   font-size: 22px;
@@ -159,15 +162,13 @@
   font-size: 20px;
 }
 
-.lots__card-list-item {}
-
 .card-link {
   display: block;
   text-decoration: none;
-
 }
 
-.card-link, .card {
+.card-link,
+.card {
   height: 100%;
 }
 
@@ -176,7 +177,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .card_type_book {
@@ -184,7 +184,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .card_type_picture {
@@ -192,5 +191,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
+.lots__look-more-link {
+  font-size: 20px;
+  margin-left: 40px;
+  border-bottom: 1px solid;
 }
