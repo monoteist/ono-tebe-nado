@@ -116,3 +116,14 @@
   padding: 12px 32px;
   text-transform: uppercase;
 }
+
+
+.lots {
+  width: 1052;
+  height: 692;
+  margin: 179px 24px 146px;
+}
+
+.lots__heading {
+  font-size: 40px;
+}
