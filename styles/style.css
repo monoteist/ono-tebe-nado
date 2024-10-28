@@ -167,10 +167,7 @@
   text-decoration: none;
 }
 
-.card-link,
-.card {
-  height: 100%;
-}
+
 
 .card_type_film {
   background-image: url("/images/card-lot-01.jpg");
@@ -198,3 +195,16 @@
   margin-left: 40px;
   border-bottom: 1px solid;
 }
+
+.about {
+  max-width: 1052;
+  max-height: 595;
+  display: flex;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+/* flex-grow: 1 */
