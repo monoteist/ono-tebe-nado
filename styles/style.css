@@ -196,7 +196,7 @@
 
 .about {
   max-width: 1052;
-  max-height: 595;
+
   display: flex;
   gap: 72px;
 }
