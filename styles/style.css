@@ -167,8 +167,6 @@
   text-decoration: none;
 }
 
-
-
 .card_type_film {
   background-image: url("/images/card-lot-01.jpg");
   background-repeat: no-repeat;
@@ -213,9 +211,6 @@
   align-items: center;
 }
 
-
-
-
 .about__logo-image {
   width: 148px;
   height: 114px;
@@ -239,4 +234,16 @@
 .about__text {
   font-size: 20px;
   inset-inline: 24px;
+}
+
+.footer {
+  width: 1000px;
+  height: 98px;
+  margin: 180px 50px 80px;
+}
+
+.footer__address {
+  max-width: 240px;
+  max-height: 98px;
+  line-height: 24px;
 }
