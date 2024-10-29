@@ -198,6 +198,8 @@
   max-width: 1052;
   display: flex;
   gap: 72px;
+  margin-left: 24px;
+  padding-left: 47px;
 }
 
 .about__logo {
