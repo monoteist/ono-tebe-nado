@@ -196,7 +196,6 @@
 
 .about {
   max-width: 1052;
-
   display: flex;
   gap: 72px;
 }
@@ -209,6 +208,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 35px;
 }
 
 .about__logo-image {
@@ -222,6 +222,8 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-top: 136px;
+  margin-bottom: 180px;
 }
 
 .about__title {
