@@ -20,7 +20,7 @@
   list-style-type: none;
 }
 
-.header__link {
+.address__link {
   border-bottom: 1px solid;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@
   font-style: normal;
 }
 
-.header__address {
+.address__text {
   display: block;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .card {
-  min-width: 334px;
+  width: 334px;
   min-height: 563px;
   display: flex;
   flex-direction: column;
@@ -153,6 +153,8 @@
   display: flex;
   gap: 25px;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+
 }
 
 .card__title {
@@ -236,13 +238,9 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 50px 180px;
+  margin: 0 50px 88px;
+  font-size: 18px;
 }
-
-.footer__address {
-  display: block;
-}
-
 
 
 .footer__menu-list {
@@ -250,7 +248,6 @@
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  font-size: 18px;
 }
 
 .footer__social-list {
