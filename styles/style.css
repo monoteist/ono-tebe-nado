@@ -75,7 +75,6 @@
   font-size: 100px;
   letter-spacing: 30px;
   padding: 165px 50px 135px;
-
 }
 
 .letter-spacing-extended {
@@ -110,7 +109,7 @@
 .cover__description-text {
   font-size: 22px;
   font-weight: 400;
-  word-spacing: 20.4px;
+  word-spacing: 18px;
 }
 
 .bet-button {
@@ -120,6 +119,7 @@
   border: 1px solid;
   padding: 12px 32px;
   text-transform: uppercase;
+  font-family: "Raleway";
 }
 
 .lots {
