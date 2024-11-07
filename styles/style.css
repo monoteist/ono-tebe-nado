@@ -74,7 +74,9 @@
 .cover__title {
   font-size: 100px;
   letter-spacing: 30px;
-  padding: 165px 50px 135px;
+  padding: 165px 50px 131px;
+  line-height: 1.2;
+
 }
 
 .letter-spacing-extended {
@@ -87,16 +89,19 @@
 
 .aligned-text {
   display: block;
+  
 }
 
 .aligned-text_center {
   display: block;
   text-align: center;
+
 }
 
 .aligned-text_right {
   display: block;
   text-align: right;
+
 }
 
 .cover__description {
@@ -154,7 +159,6 @@
   gap: 25px;
   margin-bottom: 30px;
   flex-wrap: wrap;
-
 }
 
 .card__title {
@@ -242,7 +246,6 @@
   font-size: 18px;
 }
 
-
 .footer__menu-list {
   display: flex;
   flex-direction: column;
@@ -264,7 +267,6 @@
 
 .footer__menu-link {
   border-bottom: 1px solid;
-
 }
 
 .footer__menu-link_active {
