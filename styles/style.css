@@ -8,17 +8,27 @@
   padding: 92px 24px 96px;
 }
 
+
+
 .header__links-list {
   display: flex;
   gap: 13px;
   list-style: circle;
   list-style-position: inside;
   min-width: 391px;
+  
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
 }
+
+
+.header__link {
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
 
 .address__link {
   border-bottom: 1px solid;
@@ -74,9 +84,8 @@
 .cover__title {
   font-size: 100px;
   letter-spacing: 30px;
-  padding: 165px 50px 131px;
-  line-height: 1.2;
-
+  padding: 163px 50px 123px;
+  line-height: 1.23;
 }
 
 .letter-spacing-extended {
@@ -124,7 +133,7 @@
   border: 1px solid;
   padding: 12px 32px;
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", Arial, sans-serif; ;
 }
 
 .lots {
